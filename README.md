@@ -7,6 +7,8 @@ MTWP is a movie catalog website. Here you will find all the latest and famous mo
 
 As i was learning Python at Udacity so ofcourse this project is made with Python. But there are some other languages also that i have used : HTML5, CSS3, JavaScript, JQuery, Python.
 
+==========================================================
+
 <b>If You want to run this project, Follow these steps :</b>
 
 <b>1.)</b> Clone the repository by using this link :
@@ -21,5 +23,7 @@ https://github.com/amarlearning/MovieCatalog.git
 cd MovieCatalog
 python index.py
 ```
+
+===============================================================
 
 <b>Note :</b> There are three Python files present in this project, but you only have to run the ```index.py``` file.
