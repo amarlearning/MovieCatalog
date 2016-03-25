@@ -18,8 +18,8 @@ https://github.com/amarlearning/MovieCatalog.git
 <b>2.)</b> Go to your ```Git``` directory, open terminal window there and the type these comands :
 
 ```
-cd Cricket-Scores
-python cricket.py
+cd MovieCatalog
+python index.py
 ```
 
 <b>Note :</b> There are three Python files present in this project, but you only have to run the ```index.py``` file.
