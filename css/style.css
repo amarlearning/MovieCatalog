@@ -33,9 +33,9 @@ section {
 	background-color: #fafafa;
 }
 article {
-	width:24vw;
+	width:23vw;
 	min-width: 300px;
-	height:350px;
+	height:370px;
 	background-color: #ddd;
 	margin-right: auto;
 	margin-left: auto;
@@ -57,7 +57,8 @@ article {
 	width:60px;
 	height:60px;
 	color : #ffffff;
-	font-size: 20px;
+	font-size: 40px;
+	padding-top: 5px;
 	text-align: center;
 	background-color: rgba(0,0,0,0.4);
 	cursor: pointer;
