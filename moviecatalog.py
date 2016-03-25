@@ -6,6 +6,7 @@ header = """<!DOCTYPE html>
 <head>
 	<title>OctoMovieCatalog</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 """
 
@@ -32,14 +33,17 @@ footer = """</html>"""
 
 generate_full_content = """
 <div class="movie" id="{i}yt">
-			<div class="cross" id="{i}"></div>
+			<div class="cross" id="{i}"><i class="fa fa-times-circle-o"></i></div>
 			<div class="upper-part">
 				<div class="image-part">
 					<img src="{poster_url}">
 				</div>
 				<div class="content-part">
 					<h2>{title_name}</h2>
-					<h3>Rating : &nbsp; {rating}/5</h3> 
+					<h3>Rating : &nbsp; {rating}/5 stars</h3> 
+					<p> <b>Starring : </b>
+						{star_cast}
+					</p>
 					<p> <b>Storyline : </b>
 						{storyline}
 					</p>
@@ -55,7 +59,7 @@ generate_full_content = """
 
 need_to_publish_articles = """<article id="{i}">
 	<img src="{image_link}">	
-	<div class="title-name">{title_name}</div>
+	<div class="title-name"><b>{title_name}</b></div>
 </article>"""
 
 
@@ -79,6 +83,7 @@ def create_full_content(movies) :
 			i = cnt,
 			poster_url = movie.poster_image_url,
 			title_name = movie.title,
+			star_cast = movie.star,
 			rating = movie.rating,
 			storyline = movie.storyline,
 			youtube_trailer_link = movie.trailer_youtube_url

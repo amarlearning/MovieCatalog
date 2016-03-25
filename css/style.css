@@ -56,9 +56,13 @@ article {
 .cross {
 	width:60px;
 	height:60px;
-	background-color: #ff6347;
+	color : #ffffff;
+	font-size: 20px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
 	cursor: pointer;
 	right:0px;
+
 	position: absolute;
 }
 .control {
