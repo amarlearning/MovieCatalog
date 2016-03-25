@@ -1,5 +1,5 @@
 import movie
-import generate_html
+import moviecatalog
 
 ddlj = movie.Movie("Dilwale Dulhania Le Jayenge",
                    "Love Story of a boy named Raj and girl named simran in europe",
@@ -42,4 +42,4 @@ The_Breakfast_Club = movie.Movie("The Breakfast Club",
 
 passlist = [ddlj,captain_america,x_men,walk_to_remember,Forrest_Gump,The_Breakfast_Club]
 
-generate_html.generate_html_page(passlist)
+moviecatalog.generate_html_page(passlist)
