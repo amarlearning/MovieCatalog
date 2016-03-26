@@ -3,6 +3,7 @@
 	padding : 0px;
 	font-family: tahoma;
 	box-sizing: border-box;
+	transition: all 0.6s ease-in-out;
 }
 body {
 	background-color: #fafafa;
