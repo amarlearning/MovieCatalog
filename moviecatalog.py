@@ -53,7 +53,7 @@ generate_full_content = """
 
 			<!-- will work on this later -->
 			<div class="lower-part">
-				<iframe id="{i}pauseit" src="{youtube_trailer_link}" style></iframe>
+				<iframe id="{i}pauseit" src="{youtube_trailer_link}" style="width:100%;height:100%"></iframe>
 			</div>
 		</div>
 """
