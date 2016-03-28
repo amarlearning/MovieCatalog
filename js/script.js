@@ -12,10 +12,10 @@ $(document).ready(function(){
 		block.toggleClass('show')
 		inside.toggleClass('control');
   		var videoElem = this.id;
-  		videoElem = videoElem + "pauseit";
-  		console.log(videoElem);
-  		var pauseit = document.getElementById(videoElem);
-    	pauseit.pause();
+  		videoElem = "#"+videoElem + "pauseit";
+		var video = $(videoElem).attr("src");
+		$(videoElem).attr("src","");
+		$(videoElem).attr("src",video);
     	$('.movie').removeClass('hide');
 	})
 });

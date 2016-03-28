@@ -1,4 +1,5 @@
 import os
+import re
 import webbrowser
 
 header = """<!DOCTYPE html>
@@ -52,7 +53,7 @@ generate_full_content = """
 
 			<!-- will work on this later -->
 			<div class="lower-part">
-				<video id="{i}pauseit" src="{youtube_trailer_link}" controls></video>
+				<iframe id="{i}pauseit" src="{youtube_trailer_link}" style></iframe>
 			</div>
 		</div>
 """
@@ -79,6 +80,12 @@ def create_full_content(movies) :
 	generated_content = ""
 	cnt = 1
 	for movie in movies :
+
+		youtube_id_match = re.search(r'(?<=v=)[^&#]+', movie.trailer_youtube_url)
+  		youtube_id_match = youtube_id_match or re.search(r'(?<=be/)[^&#]+', movie.trailer_youtube_url)
+  		trailer_youtube_id = (youtube_id_match.group(0) if youtube_id_match else None)
+  		link = "https://www.youtube.com/embed/"+trailer_youtube_id
+
 		generated_content += generate_full_content.format(
 			i = cnt,
 			poster_url = movie.poster_image_url,
@@ -86,8 +93,8 @@ def create_full_content(movies) :
 			star_cast = movie.star,
 			rating = movie.rating,
 			storyline = movie.storyline,
-			youtube_trailer_link = movie.trailer_youtube_url
-			)
+			youtube_trailer_link = link
+		)
 		cnt+=1
 	return generated_content
 
