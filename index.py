@@ -82,9 +82,65 @@ The_Breakfast_Club = movie.Movie("The Breakfast Club",
                     "https://www.youtube.com/watch?v=BSXBvor47Zs")
 
 
+Criminal = movie.Movie("Criminal",
+                    "Criminal is an upcoming American action thriller drama film directed by Ariel Vromen "
+                    "and written by Douglas Cook and David Weisberg. The film is about an ex-con who is "
+                    "implanted with a dead CIA agent's memories to finish an assignment.",                    
+                    " Kevin Costner, Gary Oldman, Tommy Lee Jones",
+                    "3.7",
+                    "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Criminal_2016_"
+                    "poster.jpg/220px-Criminal_2016_poster.jpg",
+                    "https://www.youtube.com/watch?v=3bvnoqsvY-M")
 
 
-passlist = [ddlj,captain_america,x_men,walk_to_remember,Forrest_Gump,The_Breakfast_Club]
+War_Dogs = movie.Movie("War Dogs",
+                    "War Dogs (previously known as Arms and the Dudes) is an upcoming 2016 American "
+                    "biographical criminal war comedy film directed by Todd Phillips and written by "
+                    "Phillips, Jason Smilovic and Stephen Chin, based on the Rolling Stone article by Guy Lawson.",                    
+                    "Jonah Hill, Miles Teller",
+                    "4.1",
+                    "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/War_Dogs_2016_"
+                    "poster.jpg/220px-War_Dogs_2016_poster.jpg",
+                    "https://www.youtube.com/watch?v=Rwh9c_E3dJk")
+
+The_Lego_Batman_Movie = movie.Movie("The Lego Batman Movie",
+                    "The Lego Batman Movie (stylized as The LEGO Batman Movie) is an upcoming 2017 American "
+                    "3D computer-animated superhero/action comedy film. It is a spin-off of the 2014 film The "
+                    "Lego Movie, featuring the DC Comics character Batman.",                    
+                    " Will Arnett, Ralph Fiennes, Michael Cera",
+                    "5.0",
+                    "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/The_Lego_Batman_Movie_PromotionalPoster"
+                    ".jpg/220px-The_Lego_Batman_Movie_PromotionalPoster.jpg",
+                    "https://www.youtube.com/watch?v=aBJyp2LFHgk")
+
+Swiss_Army_Man = movie.Movie("Swiss Army Man",
+                    "Swiss Army Man is a 2016 American comedy-drama film written and directed by Dan "
+                    "Kwan and Daniel Scheinert. The film stars Daniel Radcliffe, Mary Elizabeth "
+                    "Winstead and Paul Dano. The film is scheduled to be released on June 17, 2016, by A24.",                    
+                    " Paul Dano, Daniel Radcliffe, Mary Elizabeth Winstead",
+                    "3.9",
+                    "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Swiss_Army_Man_"
+                    "poster.png/220px-Swiss_Army_Man_poster.png",
+                    "https://www.youtube.com/watch?v=yrK1f4TsQfM")
+
+'''movie_name = movie.Movie("Name_of_the_movie",
+                    "Movie_description",                    
+                    "Starcast",
+                    "rating",
+                    "Poster_image_url",
+                    "official_trailer_url")'''
+
+
+passlist = [ddlj,
+            captain_america,
+            x_men,
+            walk_to_remember,
+            Forrest_Gump,
+            The_Breakfast_Club,
+            Criminal,
+            War_Dogs,
+            The_Lego_Batman_Movie,
+            Swiss_Army_Man]
 
 
 
