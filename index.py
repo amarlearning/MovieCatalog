@@ -123,6 +123,27 @@ Swiss_Army_Man = movie.Movie("Swiss Army Man",
                     "poster.png/220px-Swiss_Army_Man_poster.png",
                     "https://www.youtube.com/watch?v=yrK1f4TsQfM")
 
+Search_Party = movie.Movie("Search Party",
+                    "Search Party is a 2014 American comedy film directed by Scot Armstrong "
+                    "in his directorial debut, and co-written with Mike Gagerman and Andrew "
+                    "Waller based on a story by Gagerman and Waller.",                    
+                    " T. J. Miller, Adam Pally, Thomas Middleditch",
+                    "4.2",
+                    "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Search_party_xlg"
+                    ".jpg/220px-Search_party_xlg.jpg",
+                    "https://www.youtube.com/watch?v=Xpb33JVe1IE")
+
+Lights_Out = movie.Movie("Lights Out",
+                    "Lights Out is an upcoming 2016 American supernatural horror film directed "
+                    "and written by David F. Sandberg, based on Sandberg's 2013 short film of the "
+                    "same name. The film stars Teresa Palmer and Gabriel Bateman. Principal photography "
+                    "began on June 29, 2015. It is scheduled to be released on July 22, 2016.",                    
+                    " Teresa Palmer, Gabriel Bateman",
+                    "3.7",
+                    "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Lights_Out_2016_poster."
+                    "jpg/220px-Lights_Out_2016_poster.jpg",
+                    "https://www.youtube.com/watch?v=6LiKKFZyhRU")
+
 '''movie_name = movie.Movie("Name_of_the_movie",
                     "Movie_description",                    
                     "Starcast",
@@ -131,16 +152,18 @@ Swiss_Army_Man = movie.Movie("Swiss Army Man",
                     "official_trailer_url")'''
 
 
-passlist = [ddlj,
-            captain_america,
+passlist = [captain_america,
             x_men,
             walk_to_remember,
             Forrest_Gump,
             The_Breakfast_Club,
             Criminal,
             War_Dogs,
+            ddlj,
             The_Lego_Batman_Movie,
-            Swiss_Army_Man]
+            Swiss_Army_Man,
+            Search_Party,
+            Lights_Out]
 
 
 
