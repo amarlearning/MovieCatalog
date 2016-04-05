@@ -67,7 +67,7 @@ generate_full_content = """
 """
 
 need_to_publish_articles = """<article id="{i}">
-	<div class="contain"><img src="{image_link}"></div>	
+	<img src="{image_link}">
 	<div class="title-name"><b>{title_name}</b></div>
 </article>"""
 
