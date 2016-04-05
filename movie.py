@@ -1,5 +1,3 @@
-import webbrowser
-
 class Movie() :
     """This is movie information display class"""
         

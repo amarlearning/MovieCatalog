@@ -1,6 +1,26 @@
+# Importing 'movie' to use 'Movie' class which is inside it.
 import movie
+# Importing 'moviecatalog' to call 'generate_html_page' method.
 import moviecatalog
 
+# Basic structure of our object created using class 'Movie', shows in which order we have to pass arguments.
+# we passed arguments in this sequence.
+# 1. Name of the movie.
+# 2. Small movie description.
+# 3. Starcast in the movie.
+# 4. Rating of the movie.
+# 5. Official poster image link.
+# 6. Official youtube trailer link.
+
+'''movie_name = movie.Movie("Name_of_the_movie",
+                    "Movie_description",                    
+                    "Starcast",
+                    "rating",
+                    "Poster_image_url",
+                    "official_trailer_url")'''
+
+
+# Created first object named 'ddlj' for movie Dilwale Dulhania Le Jayenge .
 ddlj = movie.Movie("Dilwale Dulhania Le Jayenge",
                    "Dilwale Dulhania Le Jayenge (English: The Big-Hearted Will Take Away the Bride)," 
                    "also known by the initialism DDLJ, is an Indian romance film written and directed"
@@ -12,8 +32,7 @@ ddlj = movie.Movie("Dilwale Dulhania Le Jayenge",
                    "_Dulhania_Le_Jayenge_poster.jpg/220px-Dilwale_Dulhania_Le_Jayenge_poster.jpg",
                    "https://www.youtube.com/watch?v=EIKZ7amRGwk")
 
-
-
+# Created onother object named 'captain_america' for movie Captain America: Civil War. 
 captain_america = movie.Movie("Captain America: Civil War",
                               "Captain America: Civil War is an upcoming American superhero film featuring the "
                               "Marvel Comics character Captain America, produced by Marvel Studios and distributed "
@@ -28,7 +47,7 @@ captain_america = movie.Movie("Captain America: Civil War",
 
 
 
-
+# Created onother object named 'x_men' for movie X-Men: Apocalypse. 
 x_men = movie.Movie("X-Men: Apocalypse",
                     "X-Men: Apocalypse is an upcoming 2016 American superhero film based on the X-Men "
                     "characters that appear in Marvel Comics. It is intended to be the sequel to 2014's "
@@ -41,7 +60,7 @@ x_men = movie.Movie("X-Men: Apocalypse",
                     "https://www.youtube.com/watch?v=N0io2w_6vT8")
 
 
-
+# Created onother object named 'walk_to_remember' for movie A Walk to Remember. 
 walk_to_remember = movie.Movie("A Walk to Remember",
                    "A Walk to Remember is a 2002 American coming-of-age romantic drama film directed by "
                    "Adam Shankman and written by Karen Janszen, based on Nicholas Sparks' 1999 novel of "
@@ -55,7 +74,7 @@ walk_to_remember = movie.Movie("A Walk to Remember",
 
 
 
-
+# Created onother object named 'Forrest_Gump' for movie Forrest Gump. 
 Forrest_Gump = movie.Movie("Forrest Gump",
                            "The story depicts several decades in the life of Forrest Gump, a slow-witted and naive, "
                            "but good-hearted and athletically prodigious man from Alabama who witnesses, and in some "
@@ -68,9 +87,7 @@ Forrest_Gump = movie.Movie("Forrest Gump",
                            "https://www.youtube.com/watch?v=eYSnxZKTZzU")
 
 
-
-
-
+# Created onother object named 'The_Breakfast_Club' for movie The Breakfast Club. 
 The_Breakfast_Club = movie.Movie("The Breakfast Club",
                     " The storyline follows five teenagers, each a member of a different high school clique, "
                     "who spend a Saturday in detention together and come to realize that they are all more than "
@@ -82,6 +99,7 @@ The_Breakfast_Club = movie.Movie("The Breakfast Club",
                     "https://www.youtube.com/watch?v=BSXBvor47Zs")
 
 
+# Created onother object named 'Criminal' for movie Criminal. 
 Criminal = movie.Movie("Criminal",
                     "Criminal is an upcoming American action thriller drama film directed by Ariel Vromen "
                     "and written by Douglas Cook and David Weisberg. The film is about an ex-con who is "
@@ -93,6 +111,7 @@ Criminal = movie.Movie("Criminal",
                     "https://www.youtube.com/watch?v=3bvnoqsvY-M")
 
 
+# Created onother object named 'War_Dogs' for movie War Dogs. 
 War_Dogs = movie.Movie("War Dogs",
                     "War Dogs (previously known as Arms and the Dudes) is an upcoming 2016 American "
                     "biographical criminal war comedy film directed by Todd Phillips and written by "
@@ -103,6 +122,8 @@ War_Dogs = movie.Movie("War Dogs",
                     "poster.jpg/220px-War_Dogs_2016_poster.jpg",
                     "https://www.youtube.com/watch?v=Rwh9c_E3dJk")
 
+
+# Created onother object named 'The_Lego_Batman_Movie' for movie The Lego Batman Movie. 
 The_Lego_Batman_Movie = movie.Movie("The Lego Batman Movie",
                     "The Lego Batman Movie (stylized as The LEGO Batman Movie) is an upcoming 2017 American "
                     "3D computer-animated superhero/action comedy film. It is a spin-off of the 2014 film The "
@@ -113,6 +134,7 @@ The_Lego_Batman_Movie = movie.Movie("The Lego Batman Movie",
                     ".jpg/220px-The_Lego_Batman_Movie_PromotionalPoster.jpg",
                     "https://www.youtube.com/watch?v=aBJyp2LFHgk")
 
+# Created onother object named 'Swiss_Army_Man' for movie Swiss Army Man. 
 Swiss_Army_Man = movie.Movie("Swiss Army Man",
                     "Swiss Army Man is a 2016 American comedy-drama film written and directed by Dan "
                     "Kwan and Daniel Scheinert. The film stars Daniel Radcliffe, Mary Elizabeth "
@@ -123,6 +145,7 @@ Swiss_Army_Man = movie.Movie("Swiss Army Man",
                     "poster.png/220px-Swiss_Army_Man_poster.png",
                     "https://www.youtube.com/watch?v=yrK1f4TsQfM")
 
+# Created onother object named 'Search_Party' for movie Search Party. 
 Search_Party = movie.Movie("Search Party",
                     "Search Party is a 2014 American comedy film directed by Scot Armstrong "
                     "in his directorial debut, and co-written with Mike Gagerman and Andrew "
@@ -133,6 +156,8 @@ Search_Party = movie.Movie("Search Party",
                     ".jpg/220px-Search_party_xlg.jpg",
                     "https://www.youtube.com/watch?v=Xpb33JVe1IE")
 
+
+# Created onother object named 'Lights_Out' for movie Lights Out. 
 Lights_Out = movie.Movie("Lights Out",
                     "Lights Out is an upcoming 2016 American supernatural horror film directed "
                     "and written by David F. Sandberg, based on Sandberg's 2013 short film of the "
@@ -144,14 +169,9 @@ Lights_Out = movie.Movie("Lights Out",
                     "jpg/220px-Lights_Out_2016_poster.jpg",
                     "https://www.youtube.com/watch?v=6LiKKFZyhRU")
 
-'''movie_name = movie.Movie("Name_of_the_movie",
-                    "Movie_description",                    
-                    "Starcast",
-                    "rating",
-                    "Poster_image_url",
-                    "official_trailer_url")'''
-
-
+# Next thing we have to do is to display all information in a webpage.
+# So for all this we have created a list named 'passlist'.
+# Now 'passlist' will contain all objects of the movie that we have created earlier. 
 passlist = [captain_america,
             x_men,
             walk_to_remember,
@@ -165,7 +185,9 @@ passlist = [captain_america,
             Search_Party,
             Lights_Out]
 
-
-
+# Remember we have imported a package named 'moviecatalog'.
+# Now we will use this package to generate a webpage.
+# we will call a function inside this package named 'generate_html_page'.
+# So in this next step we have called this function and passing 'passlist' as argument.
 
 moviecatalog.generate_html_page(passlist)

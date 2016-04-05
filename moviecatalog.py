@@ -3,17 +3,25 @@ import re
 import webbrowser
 
 header = """<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>OctoMovieCatalog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="PyMovie catalog is is a website made with love and python in India. In this 
+	website you will find all the new movie release with their updated rating, official trailer, 
+	starcast information, offcial poster, storyline." />
+	<title>PyMovieCatalog</title>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 """
 
 body_part_one = """<body>
 <header>
-		<h2>Octo Movie Catalog</h2>
+		<h2>PyMovie Catalog</h2>
 	</header>
 	<section class="section">
 		<section class="inside">
@@ -59,7 +67,7 @@ generate_full_content = """
 """
 
 need_to_publish_articles = """<article id="{i}">
-	<img src="{image_link}">	
+	<div class="contain"><img src="{image_link}"></div>	
 	<div class="title-name"><b>{title_name}</b></div>
 </article>"""
 
