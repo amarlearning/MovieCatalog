@@ -8,6 +8,7 @@ $(document).ready(function(){
 		name = '#'+name+'yt';
 		$(name).toggleClass('hide');
 	})
+	
 	$('.cross').click(function(){
 		block.toggleClass('show')
 		inside.toggleClass('control');
