@@ -30,3 +30,8 @@ python index.py
 ===============================================================
 
 <b>Note :</b> There are three Python files present in this project, but you only have to run the ```index.py``` file.
+
+#Screenshots
+
+![PyMovieCatalog](https://raw.githubusercontent.com/amarlearning/MovieCatalog/master/screenshots/1.jpg)
+![PyMovieCatalog](https://raw.githubusercontent.com/amarlearning/MovieCatalog/master/screenshots/2.jpg)
