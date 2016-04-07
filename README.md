@@ -34,4 +34,6 @@ python index.py
 #Screenshots
 
 ![PyMovieCatalog](https://raw.githubusercontent.com/amarlearning/MovieCatalog/master/screenshots/1.jpg)
+![PyMovieCatalog](https://raw.githubusercontent.com/amarlearning/MovieCatalog/master/screenshots/3.jpg)
+![PyMovieCatalog](https://raw.githubusercontent.com/amarlearning/MovieCatalog/master/screenshots/4.jpg)
 ![PyMovieCatalog](https://raw.githubusercontent.com/amarlearning/MovieCatalog/master/screenshots/2.jpg)
