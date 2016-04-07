@@ -10,7 +10,7 @@ As i was learning Python at Udacity so ofcourse this project is made with Python
 
 If you find this movie trailer website a little ugly, then that is because of slow internet connection. The other reason would be because i concentrated more on responsiveness then on design :stuck_out_tongue_winking_eye:
 
-==========================================================
+#Instructions
 
 <b>If You want to run this project, Follow these steps :</b>
 
