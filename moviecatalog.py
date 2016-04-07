@@ -1,6 +1,10 @@
+# Imported 'os' package, to generate a file in a specied folder.
 import os
+# Imported 're' regular expression package, to get video code from any youtube url.
 import re
+# Imported 'webbrowser' to open the html file in a browser as soon as it is generated.
 import webbrowser
+
 
 header = """<!DOCTYPE html>
 <html lang="en">
@@ -33,6 +37,7 @@ body_part_two = """
 	<section class="pull-out">
 		{show_full_content}
 	</section>
+	<footer><p>Copyright (c) 2016 PyMovie Catalog All Rights Reserved.</p></footer>
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
