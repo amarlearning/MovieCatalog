@@ -1,8 +1,7 @@
 # Movie Trailer Website :movie_camera:
 
 
-Movie Trailer Website project is the part of my course at Udacity. So Let's give a shortname to this project like 'MTWP' 
-and see what's in there.
+Server-side code written in Python to store a list of my favorite movies, including box art imagery and a movie trailer URL. This data is then served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers.
 
 MTWP is a movie catalog website. Here you will find all the latest and famous movie of all time with there official poster, trailer, storyline, starcast, rating.
 
